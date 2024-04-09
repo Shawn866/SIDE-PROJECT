@@ -1,0 +1,6 @@
+1. There are no '+notimingcheck' and '+nospecify' for VCS Makefile to simulate the SRAM model
+   It is OK for QuestaSim
+
+2. timescale 
+
+3. port connection mismatch

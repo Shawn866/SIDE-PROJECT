@@ -1,0 +1,14 @@
+all: clean create_lib compile simulate
+
+create_lib:
+	vlib work
+
+compile:
+	vlog -sv -mfcu -f ./file.lst
+
+simulate:
+	vsim -novopt -debugDB  sram_tb \
+	-do "log -r *; run -all"
+
+clean:
+	rm -rf work *.wlf *.dbg transcript *.log simv* *.h DVE* *.key csrc
