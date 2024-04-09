@@ -1,0 +1,619 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/cpu_prj-master/FPGA/quartus_prj/simulation/modelsim
+T_opt
+!s110 1711959252
+VN7Yo;iEmjSPV:@_Q=6H3P2
+04 12 4 work tb_riscv_top fast 0
+=1-30f6ef5fb11c-660a6cd3-3af-3250
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+valu
+Z2 !s110 1711959251
+!i10b 1
+!s100 eB_6kC6G?[;@`bge2gPNn3
+I<fHg1RkLV61j8mjBBZWkU1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1709199783
+8C:/cpu_prj-master/FPGA/rtl/core/alu.v
+FC:/cpu_prj-master/FPGA/rtl/core/alu.v
+Z5 L0 25
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1711959251.000000
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/alu.v|
+!i113 0
+Z8 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -vlog01compat -work work +incdir+C:/cpu_prj-master/FPGA/rtl/core -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclint
+Z10 !s110 1711959250
+!i10b 1
+!s100 mP38n8^b@=VLQQnfnN]HJ3
+IG3F5;z0[QWgR5QmJi<LJ<3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/clint.v
+FC:/cpu_prj-master/FPGA/rtl/core/clint.v
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1711959250.000000
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/clint.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/clint.v|
+!i113 0
+R8
+R9
+R1
+vcsr
+R10
+!i10b 1
+!s100 :U<hnK?;Iod2RF^I9l8Pz1
+IJFA^MKiHh;i=@f04XESkm1
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/csr.v
+FC:/cpu_prj-master/FPGA/rtl/core/csr.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/csr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/csr.v|
+!i113 0
+R8
+R9
+R1
+vcu
+R2
+!i10b 1
+!s100 YomQ;`;bZW>l:ih```;1O0
+IERZDn38fnVMn3jK@W^KbQ3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/cu.v
+FC:/cpu_prj-master/FPGA/rtl/core/cu.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/cu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/cu.v|
+!i113 0
+R8
+R9
+R1
+vdelay_buffer
+R10
+!i10b 1
+!s100 jG]eJ]8`km7383C9M8n6R2
+IATfkUf?JY6gboCLIooN]K0
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/utils/delay_buffer.v
+FC:/cpu_prj-master/FPGA/rtl/utils/delay_buffer.v
+Z12 L0 23
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/utils/delay_buffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/utils|C:/cpu_prj-master/FPGA/rtl/utils/delay_buffer.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+C:/cpu_prj-master/FPGA/rtl/utils -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdiv
+R10
+!i10b 1
+!s100 g]TlQW=JeWWKm8E3zzeJK2
+I22YlROSjCS7bYAnNieOeX2
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/div.v
+FC:/cpu_prj-master/FPGA/rtl/core/div.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/div.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/div.v|
+!i113 0
+R8
+R9
+R1
+vEX_UNIT
+R2
+!i10b 1
+!s100 fRfSEBGWkJj:AbZZcQKoB1
+IMkB[DMP<YA^6cPz]Eom732
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/top/EX_UNIT.v
+FC:/cpu_prj-master/FPGA/rtl/top/EX_UNIT.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/top/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/top/EX_UNIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/top|C:/cpu_prj-master/FPGA/rtl/top/EX_UNIT.v|
+!i113 0
+R8
+Z13 !s92 -vlog01compat -work work +incdir+C:/cpu_prj-master/FPGA/rtl/top -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@e@x_@u@n@i@t
+vgpio
+R10
+!i10b 1
+!s100 kZN4N3:7R[XQGmjg9Y<^81
+ITbNEmD]>ZcTKaea:PiLmF3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/perips/gpio.v
+FC:/cpu_prj-master/FPGA/rtl/perips/gpio.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/perips/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/perips/gpio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/perips|C:/cpu_prj-master/FPGA/rtl/perips/gpio.v|
+!i113 0
+R8
+Z14 !s92 -vlog01compat -work work +incdir+C:/cpu_prj-master/FPGA/rtl/perips -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vgpr
+R10
+!i10b 1
+!s100 OPh2[[DoYd1H3J5?B0dH>0
+IiH7FV`^Y9J]_DI?Wb3hGU1
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/gpr.v
+FC:/cpu_prj-master/FPGA/rtl/core/gpr.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/gpr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/gpr.v|
+!i113 0
+R8
+R9
+R1
+vid
+R2
+!i10b 1
+!s100 ?Zc<6^4nhi6@InaD=`S>U3
+IJLJc^2zVLdZ;89oSIm;]h1
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/id.v
+FC:/cpu_prj-master/FPGA/rtl/core/id.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/id.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/id.v|
+!i113 0
+R8
+R9
+R1
+vid_ex
+R2
+!i10b 1
+!s100 X4CoWEz^i3oflHz;`[9Oe2
+IHV37;5X:JQkdHJHKWoGS41
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/id_ex.v
+FC:/cpu_prj-master/FPGA/rtl/core/id_ex.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/id_ex.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/id_ex.v|
+!i113 0
+R8
+R9
+R1
+vID_UNIT
+R2
+!i10b 1
+!s100 liS?PUGe4NR7jOFR@LZX;0
+II7NJgR2cZSlcha614]d;U3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/top/ID_UNIT.v
+FC:/cpu_prj-master/FPGA/rtl/top/ID_UNIT.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/top/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/top/ID_UNIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/top|C:/cpu_prj-master/FPGA/rtl/top/ID_UNIT.v|
+!i113 0
+R8
+R13
+R1
+n@i@d_@u@n@i@t
+vif_id
+R2
+!i10b 1
+!s100 jjmnQTeemH>mI3]jj?<hj0
+IH:I?J2]glagciSB7z^afc0
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/if_id.v
+FC:/cpu_prj-master/FPGA/rtl/core/if_id.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/if_id.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/if_id.v|
+!i113 0
+R8
+R9
+R1
+vIF_UNIT
+R2
+!i10b 1
+!s100 PBXIRf`V7oV_na6Y><[>01
+IA8];6Y]k9@bEh^=@;;FY^1
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/top/IF_UNIT.v
+FC:/cpu_prj-master/FPGA/rtl/top/IF_UNIT.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/top/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/top/IF_UNIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/top|C:/cpu_prj-master/FPGA/rtl/top/IF_UNIT.v|
+!i113 0
+R8
+R13
+R1
+n@i@f_@u@n@i@t
+vmul
+R10
+!i10b 1
+!s100 9TG;<LO]ZlB;gjJ5li?eP0
+IO;Tjl@9<^6Hfa@mMiXVVE0
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/mul.v
+FC:/cpu_prj-master/FPGA/rtl/core/mul.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/mul.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/mul.v|
+!i113 0
+R8
+R9
+R1
+vpc
+R2
+!i10b 1
+!s100 hBUn^7IV>I?Ni9<hEaf^a1
+Ih;gJWJcVzBcSTQbTl3b0l0
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/pc.v
+FC:/cpu_prj-master/FPGA/rtl/core/pc.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/pc.v|
+!i113 0
+R8
+R9
+R1
+vram
+R2
+!i10b 1
+!s100 [[e<YaNel_jT0=<e?=^2R0
+I_9;;C4z?>nNeI4KU5Gc>f3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/perips/ram.v
+FC:/cpu_prj-master/FPGA/rtl/perips/ram.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/perips/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/perips/ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/perips|C:/cpu_prj-master/FPGA/rtl/perips/ram.v|
+!i113 0
+R8
+R14
+R1
+vRF_UNIT
+R2
+!i10b 1
+!s100 lWl6ikC_C=Q36=YO8>g_f2
+ISJ<ih4LNU?ZF>VX`HzKeO3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/top/RF_UNIT.v
+FC:/cpu_prj-master/FPGA/rtl/top/RF_UNIT.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/top/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/top/RF_UNIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/top|C:/cpu_prj-master/FPGA/rtl/top/RF_UNIT.v|
+!i113 0
+R8
+R13
+R1
+n@r@f_@u@n@i@t
+vrib
+R10
+!i10b 1
+!s100 1VgbF`>jzkczl7:HP<ZVF2
+I<nGcQ8:WM2FDGSU>[U]781
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/rib.v
+FC:/cpu_prj-master/FPGA/rtl/core/rib.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/rib.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/rib.v|
+!i113 0
+R8
+R9
+R1
+vRISCV
+R2
+!i10b 1
+!s100 LScI=9f9nhb;j4C;QW57c0
+ImEi60hfF]3<cOiBl<:d;Y3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/top/RISCV.v
+FC:/cpu_prj-master/FPGA/rtl/top/RISCV.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/top/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/top/RISCV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/top|C:/cpu_prj-master/FPGA/rtl/top/RISCV.v|
+!i113 0
+R8
+R13
+R1
+n@r@i@s@c@v
+vRISCV_SOC_TOP
+R2
+!i10b 1
+!s100 N8:?6Q?VV]^`I1IXk_Ck>3
+I_koli;c8=j_[E5NCIZRd50
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/top/RISCV_SOC_TOP.v
+FC:/cpu_prj-master/FPGA/rtl/top/RISCV_SOC_TOP.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/top/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/top/RISCV_SOC_TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/top|C:/cpu_prj-master/FPGA/rtl/top/RISCV_SOC_TOP.v|
+!i113 0
+R8
+R13
+R1
+n@r@i@s@c@v_@s@o@c_@t@o@p
+vrom
+R2
+!i10b 1
+!s100 A[;Tm31VTT6M@S1jESzQ72
+ISXPI>DZON63T?LNXc1mj:3
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/perips/rom.v
+FC:/cpu_prj-master/FPGA/rtl/perips/rom.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/perips/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/perips/rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/perips|C:/cpu_prj-master/FPGA/rtl/perips/rom.v|
+!i113 0
+R8
+R14
+R1
+vrst_ctrl
+R10
+!i10b 1
+!s100 aM2a8S:B0f3U_SQVKOf6]2
+IVOo==PHIm@8kCM;Pz8GYD1
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/core/rst_ctrl.v
+FC:/cpu_prj-master/FPGA/rtl/core/rst_ctrl.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/core/defines.v|C:/cpu_prj-master/FPGA/rtl/core/rst_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/core|C:/cpu_prj-master/FPGA/rtl/core/rst_ctrl.v|
+!i113 0
+R8
+R9
+R1
+vtb_riscv_top
+R2
+!i10b 1
+!s100 D?DE6RLEa[9c;:b;]?1VS3
+IRJ:h>WS@kd8zbPnDPb``:0
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/quartus_prj/../sim/tb_riscv_top.v
+FC:/cpu_prj-master/FPGA/quartus_prj/../sim/tb_riscv_top.v
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/quartus_prj/../sim/tb_riscv_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/quartus_prj/../sim|C:/cpu_prj-master/FPGA/quartus_prj/../sim/tb_riscv_top.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+C:/cpu_prj-master/FPGA/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtimer
+R10
+!i10b 1
+!s100 QXB?5DK<h`d_cbjkhYoZ42
+I]a72lBeWC]TG<S93W0Xee1
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/perips/timer.v
+FC:/cpu_prj-master/FPGA/rtl/perips/timer.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/perips/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/perips/timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/perips|C:/cpu_prj-master/FPGA/rtl/perips/timer.v|
+!i113 0
+R8
+R14
+R1
+vuart
+R2
+!i10b 1
+!s100 5=>Lljo1<D[Z<zVd4@8Te2
+I]]Of0VHNA<k8>3BF29MW`0
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/perips/uart.v
+FC:/cpu_prj-master/FPGA/rtl/perips/uart.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/cpu_prj-master/FPGA/rtl/perips/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/perips/uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/perips|C:/cpu_prj-master/FPGA/rtl/perips/uart.v|
+!i113 0
+R8
+R14
+R1
+vuart_debug
+R10
+!i10b 1
+!s100 YfU@STY;eb0Ui^ZaV_4GV3
+IEGAg]8STCbnWf0djDW[4g1
+R3
+R0
+R4
+8C:/cpu_prj-master/FPGA/rtl/debug/uart_debug.v
+FC:/cpu_prj-master/FPGA/rtl/debug/uart_debug.v
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/cpu_prj-master/FPGA/rtl/debug/../core/defines.v|C:/cpu_prj-master/FPGA/rtl/debug/uart_debug.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/cpu_prj-master/FPGA/rtl/debug|C:/cpu_prj-master/FPGA/rtl/debug/uart_debug.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+C:/cpu_prj-master/FPGA/rtl/debug -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

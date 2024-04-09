@@ -1,0 +1,34 @@
+
+State Machine - |RISCV_SOC_TOP|uart:u_uart|uart_rx_state
+Name uart_rx_state.IDLE uart_rx_state.END uart_rx_state.RX_BYTE uart_rx_state.BEGIN 
+uart_rx_state.IDLE 0 0 0 0 
+uart_rx_state.BEGIN 1 0 0 1 
+uart_rx_state.RX_BYTE 1 0 1 0 
+uart_rx_state.END 1 1 0 0 
+
+State Machine - |RISCV_SOC_TOP|uart:u_uart|uart_tx_state
+Name uart_tx_state.BEGIN uart_tx_state.IDLE uart_tx_state.END uart_tx_state.TX_BYTE 
+uart_tx_state.IDLE 0 0 0 0 
+uart_tx_state.BEGIN 1 1 0 0 
+uart_tx_state.TX_BYTE 0 1 0 1 
+uart_tx_state.END 0 1 1 0 
+
+State Machine - |RISCV_SOC_TOP|uart_debug:u_uart_debug|uart_state
+Name uart_state.END uart_state.SEND_BYTE uart_state.BEGIN uart_state.IDLE 
+uart_state.IDLE 0 0 0 0 
+uart_state.BEGIN 0 0 1 1 
+uart_state.SEND_BYTE 0 1 0 1 
+uart_state.END 1 0 0 1 
+
+State Machine - |RISCV_SOC_TOP|RISCV:u_RISCV|EX_UNIT:INST_EX_UNIT|div:u_div|div_state
+Name div_state.BUSY 
+div_state.IDLE 0 
+div_state.BUSY 1 
+
+State Machine - |RISCV_SOC_TOP|RISCV:u_RISCV|clint:u_clint|csr_state
+Name csr_state.CSR_MCAUSE csr_state.CSR_MSTATUS_MRET csr_state.CSR_MEPC csr_state.CSR_MSTATUS csr_state.CSR_IDLE 
+csr_state.CSR_IDLE 0 0 0 0 0 
+csr_state.CSR_MSTATUS 0 0 0 1 1 
+csr_state.CSR_MEPC 0 0 1 0 1 
+csr_state.CSR_MSTATUS_MRET 0 1 0 0 1 
+csr_state.CSR_MCAUSE 1 0 0 0 1 
