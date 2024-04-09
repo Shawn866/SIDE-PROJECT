@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sobel">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sobel|clk_gen:clk_gen_inst|altpll:altpll_component" CBX_FILE_NAME="clk_gen_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sobel|sobel_ctrl:sobel_ctrl_inst|fifo:fifo_inst_2|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_m521.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sobel|sobel_ctrl:sobel_ctrl_inst|lpm_add_sub:Add14" CBX_FILE_NAME="add_sub_cui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sobel|vga:vga_inst|vga_pic:vga_pic_inst|ram_pic:ram_pic_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8co1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sobel|sobel_ctrl:sobel_ctrl_inst|fifo:fifo_inst_1|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_m521.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

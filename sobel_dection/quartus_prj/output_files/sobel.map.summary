@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Mar 21 19:43:14 2024
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : sobel
+Top-level Entity Name : sobel
+Family : Cyclone IV E
+Total logic elements : 626
+    Total combinational functions : 496
+    Dedicated logic registers : 356
+Total registers : 356
+Total pins : 14
+Total virtual pins : 0
+Total memory bits : 147,456
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
